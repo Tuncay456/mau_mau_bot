@@ -1,1 +1,1 @@
-python3 ./bot.py
+pypi: python3 -m bot.py
