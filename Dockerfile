@@ -14,4 +14,4 @@ RUN cd locales && find . -maxdepth 2 -type d -name 'LC_MESSAGES' -exec ash -c 'm
 VOLUME /app/data
 ENV UNO_DB /app/data/uno.sqlite3
 
-ENTRYPOINT python3 ./bot.py
+ENTRYPOINT python3 bot.py
